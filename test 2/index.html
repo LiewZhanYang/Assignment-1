@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="sytle.css" rel="stylesheet" />
     <script src="carousel.js"></script>
+    <script src="cart.js"></script>
     <script>
       window.addEventListener("load", (event) => {
         currentSlide(1);
@@ -168,6 +169,31 @@
       </div>
     </section>
 
+    <!-- Cart Button -->
+    <div class="cart-btn">
+      <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class="cart-quantity">0</span>
+    </div>
+
+    <!-- Cart Modal Overlay -->
+    <div class="cart-modal-overlay">
+      <div class="cart-modal">
+        <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+
+        <div class="product-rows">
+          <!-- Product rows will be dynamically added here -->
+        </div>
+
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+          <span class="total-price">$0</span>
+          <button class="purchase-btn">PURCHASE</button>
+        </div>
+      </div>
+    </div>
+
     <script src="carousel.js"></script>
+    <script src="cart.js"></script>
   </body>
 </html>
