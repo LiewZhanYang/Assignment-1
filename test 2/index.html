@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="sytle.css" rel="stylesheet" />
+    <script src="carousel.js"></script>
+    <script>
+      window.addEventListener("load", (event) => {
+        currentSlide(1);
+      });
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <img src="image/logopic.png" alt="logopic" class="logopic" />
+
+      <a href="#" class="logo">POPULAR ONLINE </a>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="ourbook.html">Our Book</a>
+        <a href="stationery.html">Stationery</a>
+        <a href="promotion.html">Promotion</a>
+        <a href="news&events.html">News&Events</a>
+      </nav>
+
+      <a href="account.html"> <i class="ri-user-line"></i></a>
+    </header>
+    <!-- header -->
+
+    <!-- carousel -->
+    <section class="carousel">
+      <div class="pages">
+        <img src="image/carousel1.png" alt="image1" style="width: 100%" />
+      </div>
+
+      <div class="pages">
+        <img src="image/carousel2.png" alt="image2" style="width: 100%" />
+      </div>
+
+      <div class="pages">
+        <img src="image/carousel3.png" alt="image3" style="width: 100%" />
+      </div>
+
+      <div class="pages">
+        <img src="image/carousel4.png" alt="image4" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </section>
+
+    <!-- hotseller -->
+    <section class="products" id="products">
+      <h1 class="heading">HotSellers!!!</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <span class="discount">-10%</span>
+          <div class="image">
+            <img src="image/book1.png" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Elon Musk</h3>
+            <div class="price">$12.99 <span>$15.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">-10%</span>
+          <div class="image">
+            <img src="image/book2.png" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Elon Musk</h3>
+            <div class="price">$12.99 <span>$15.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">-10%</span>
+          <div class="image">
+            <img src="image/book3.png" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Elon Musk</h3>
+            <div class="price">$12.99 <span>$15.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <span class="discount">-10%</span>
+          <div class="image">
+            <img src="image/book4.png" alt="" />
+            <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Elon Musk</h3>
+            <div class="price">$12.99 <span>$15.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hotseller -->
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <br />
+          <h3>About Us</h3>
+          <a href="#">STORE LOCATION</a>
+          <a href="#">CAREER</a>
+        </div>
+
+        <div class="box">
+          <br />
+          <h3>INFO</h3>
+          <a href="#">PRIVACY POLICY</a>
+          <a href="#">CONTACT US</a>
+        </div>
+
+        <div class="credit">
+          <i class="ri-facebook-fill"></i>
+          <i class="ri-youtube-line"></i>
+          <i class="ri-instagram-line"></i>
+        </div>
+      </div>
+    </section>
+
+    <script src="carousel.js"></script>
+  </body>
+</html>

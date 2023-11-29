@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="account.css" rel="stylesheet" />
+    <script src="carousel.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <body>
+      <h1>SignUp Form</h1>
+      <form>
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="birth-date">Date Of Birth:</label>
+        <input type="date" name="birth-date" id="birth-date" required />
+
+        <div class="form-section">
+          <p>Gender:</p>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+
+          <input type="radio" name="gender" id="other" />
+          <label for="other">Other</label>
+        </div>
+
+        <div class="form-section">
+          <p>Interests</p>
+          <input type="checkbox" name="Interests" id="music" />
+          <label for="music">Music</label>
+
+          <input type="checkbox" name="Interests" id="sports" />
+          <label for="sports">Sports</label>
+
+          <input type="checkbox" name="Interests" id="movies" />
+          <label for="movies">Movies</label>
+
+          <input type="checkbox" name="Interests" id="travel" />
+          <label for="travel">Travel</label>
+        </div>
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+        <input type="submit" />
+      </form>
+    </body>
+  </body>
+</html>
