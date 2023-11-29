@@ -335,8 +335,19 @@ header .logopic {
   font-size: 2rem;
 }
 
-.footer .credit i:hover{
-  color:red;
+.footer .credit i:hover {
+  color: red;
 }
 
 /* footer */
+
+/* imgpromotion */
+.imgpromotion {
+  margin-top: 120px;
+}
+
+.imgpromotion img {
+  width: 1300px;
+}
+
+/* imgpromotion */
