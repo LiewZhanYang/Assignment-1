@@ -6,7 +6,7 @@
 }
 
 .cart {
-  color: #fff;
+  color: #000000;
   position: fixed;
   width: 400px;
   max-width: 80vw;
@@ -116,7 +116,7 @@
   margin-top: 10px;
   border: none;
   background-color: #ffffff;
-  color: #fff;
+  color: #000000;
 }
 .checkoutLayout .right .return .row {
   display: flex;

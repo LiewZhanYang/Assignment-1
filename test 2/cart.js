@@ -1,12 +1,18 @@
-// open cart modal
-const cart = document.querySelector('#cart');
-const cartModalOverlay = document.querySelector('.cart-modal-overlay');
+let iconCart = document.querySelector('.iconCart');
+let cart = document.querySelector('.cart');
+let container = document.querySelector('.container');
+let close = document.querySelector('.close');
 
-cart.addEventListener('click', () => {
-  if (cartModalOverlay.style.transform === 'translateX(-200%)'){
-    cartModalOverlay.style.transform = 'translateX(0)';
-  } else {
-    cartModalOverlay.style.transform = 'translateX(-200%)';
-  }
+iconCart.addEventListener('click', function(){
+    if(cart.style.right == '-100%'){
+        cart.style.right = '0';
+        container.style.transform = 'translateX(-400px)';
+    }else{
+        cart.style.right = '-100%';
+        container.style.transform = 'translateX(0)';
+    }
 })
-// end of open cart modal
+close.addEventListener('click', function (){
+    cart.style.right = '-100%';
+    container.style.transform = 'translateX(0)';
+})
