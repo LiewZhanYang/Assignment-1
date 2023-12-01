@@ -1,21 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const cartButton = document.getElementById('cart');
-    const cartModalOverlay = document.querySelector('.cart-modal-overlay');
-    const closeBtn = document.getElementById('close-btn');
-  
-    // Function to open the cart modal
-    function openCartModal() {
-      cartModalOverlay.classList.add('active');
-    }
-  
-    // Function to close the cart modal
-    function closeCartModal() {
-      cartModalOverlay.classList.remove('active');
-    }
-  
-    // Event listener for opening the cart modal
-    cartButton.addEventListener('click', openCartModal);
-  
-    // Event listener for closing the cart modal
-    closeBtn.addEventListener('click', closeCartModal);
-  });
+// open cart modal
+const cart = document.querySelector('#cart');
+const cartModalOverlay = document.querySelector('.cart-modal-overlay');
+
+cart.addEventListener('click', () => {
+  if (cartModalOverlay.style.transform === 'translateX(-200%)'){
+    cartModalOverlay.style.transform = 'translateX(0)';
+  } else {
+    cartModalOverlay.style.transform = 'translateX(-200%)';
+  }
+})
+// end of open cart modal

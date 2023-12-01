@@ -9,6 +9,20 @@
       href="https://cdn.maptiler.com/maptiler-sdk-js/v1.1.1/maptiler-sdk.css"
       rel="stylesheet"
     />
+    <script src="https://cdn.maptiler.com/maptiler-geocoding-control/v1.0.0/maptilersdk.umd.js"></script>
+    <link
+      href="https://cdn.maptiler.com/maptiler-geocoding-control/v1.0.0/style.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+    />
+
     <style>
       body {
         margin: 0;
@@ -30,8 +44,9 @@
         container: "map", // container's id or the HTML element to render the map
         style: maptilersdk.MapStyle.STREETS,
         center: [103.7578, 1.5476], // starting position [lng, lat]
-        zoom: 14, // starting zoom
+        zoom: 10, // starting zoom
       });
     </script>
+    <script src="location.js"></script>
   </body>
 </html>
