@@ -139,3 +139,105 @@
 }
 
 /* ebook */
+
+@media screen and (max-width: 1300px){
+  .vertical-line {
+    border-left: 1px solid black;
+    height: 4000px;
+    position: absolute;
+    left: 220px;
+    transform: translateX(-50%);
+  }
+}
+
+
+
+@media screen and (max-width: 912px) {
+  .left-nav,
+  .right-nav {
+    display: none; /* Hide left and right navigation on small screens */
+  }
+
+  header .logo {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 0.5rem; /* Add space above the logo */
+  }
+
+  header .logopic {
+    margin-right: 0.5rem; /* Add space after the logo image */
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Assuming you have a toggle button for a dropdown menu */
+  .navbar-toggle {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .navbar {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 100%; /* Position the menu below the header */
+    left: 0;
+    background: #3d3434; /* Example background color */
+    transition: all 0.3s ease-out;
+  }
+
+  .navbar.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ri-user-line {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 3rem; /* Adjust as needed */
+    font-size: 1.5rem; /* Adjust icon size as needed */
+  }
+
+  .navbar a {
+    font-size: 1.5rem;
+  }
+
+  .bar {
+    padding: 0;
+    margin-top: 30px; /* Adjust this value to move it up or down */
+    font-size: 20px;
+    margin-left: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vertical-line {
+    border-left: 1px solid black;
+    height: 4200px;
+    position: absolute;
+    left: 220px;
+    transform: translateX(-50%);
+  }
+
+  .products .heading {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, serif;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .vertical-line {
+    border-left: 1px solid black;
+    height: 8000px;
+    position: absolute;
+    left: 220px;
+    transform: translateX(-50%);
+  }
+}
+
