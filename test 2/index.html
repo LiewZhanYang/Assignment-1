@@ -91,7 +91,7 @@
             <img src="image/book1.png" alt="" />
             <div class="icons">
               <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="cart-btn" onclick="addToCart(this)">add to cart</a>
               <a href="#" class="fas fa-share"></a>
             </div>
           </div>
@@ -112,7 +112,7 @@
             <img src="image/book2.png" alt="" />
             <div class="icons">
               <a href="#" class="fas fa-heart"></a>
-              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="cart-btn" onclick="addToCart(this)">add to cart</a>
               <a href="#" class="fas fa-share"></a>
             </div>
           </div>
@@ -195,9 +195,9 @@
             <div class="price">$50/1 product</div>
           </div>
           <div class="quantity">
-            <button>-</button>
+            <button onclick="changeQuantity(${product.id}, '-')">-</button>
             <span class="value">3</span>
-            <button>+</button>
+            <button onclick="changeQuantity(${product.id}, '+')">+</button>
           </div>
         </div>
       </div>

@@ -1,26 +1,26 @@
 [
   {
+    "id": 0,
+    "Image": "image/book1.png",
+    "title": "Z Flip Foldable Mobile",
+    "price": 120
+  },
+  {
     "id": 1,
-    "name": "Product 1",
-    "price": 520,
-    "image": "images/2.webp"
+    "Image": "image/book2.png",
+    "title": "Z Flip Foldable Mobile",
+    "price": 120
   },
   {
     "id": 2,
-    "name": "Product 2",
-    "price": 220,
-    "image": "images/2.webp"
+    "Image": "image/book3.png",
+    "title": "Z Flip Foldable Mobile",
+    "price": 120
   },
   {
     "id": 3,
-    "name": "Product 3",
-    "price": 250,
-    "image": "images/3.webp"
-  },
-  {
-    "id": 4,
-    "name": "Product 4",
-    "price": 420,
-    "image": "images/4.webp"
+    "Image": "image/book4.png",
+    "title": "Z Flip Foldable Mobile",
+    "price": 120
   }
 ]
