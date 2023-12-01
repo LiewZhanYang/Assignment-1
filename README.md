@@ -22,6 +22,29 @@ The secondary users are individuals passionate about reading and drawing. They o
 
 The enhanced user-friendliness of the new website addresses these challenges. Users can conveniently find everything they need on the website, and the revamped design ensures a seamless and pleasant experience. Additionally, the option to have parcels delivered to their homes eliminates the need for extensive travel.
 
+## What the Website is Catering For
+
+The Popular Website caters to students and individuals passionate about various interests, even those residing far from the city, providing them with the convenience of online shopping. Additionally, the website operates 24 hours a day without any person limit, enabling users to make purchases and search for items at any time. This continuous accessibility contributes to increased profits for the bookstore.
+
+Moreover, the e-commerce nature of the website allows for a reduction in staff at the physical shop. The elimination of rush at the cashier during checkout is beneficial, providing a smoother transaction process. Customers no longer need to wait in queues, thereby enhancing customer service and overall shopping experience. This improved service encourages customers to return to our store.
+
+## Source
+-ChatGpt
+
+-https://fontawesome.com/icons/cart-shopping?f=classic&s=solid
+
+-https://www.youtube.com/watch?v=2SbhlPiC5SY
+
+-https://www.youtube.com/watch?v=F20UuBdiLJ0&t=449s
+
+-https://www.popular.com.my/
+
+-https://remixicon.com/
+
+-maptiler
+
+
+
 
 
 
