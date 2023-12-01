@@ -443,3 +443,27 @@ header .logopic {
   color: #fff;
   text-decoration: none;
 }
+
+.privacy .upp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.privacy .upp h1 {
+  font-size: 50px;
+  margin-right: 120px;
+}
+
+.privacy .upp h1 span{
+  color:red;
+}
+
+.privacy .upp a {
+  font-size: 50px;
+}
+
+.privacy img {
+  width: 80%;
+  margin-left: 200px;
+}
