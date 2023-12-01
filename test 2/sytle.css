@@ -574,9 +574,8 @@ header .logopic {
   }
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
   .imgpromotion img {
-    display:none;
+    display: none;
   }
 }
-
